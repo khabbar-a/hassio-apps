@@ -1,12 +1,13 @@
-FROM quantumentangledandy/neolink:v0.6.2
+FROM ghcr.io/mutuallyassureddeployment/neolink:4ad31b2
+
+USER root
 
 RUN apt-get update && \
-    apt-get install -y \
-        jq && \
-    apt-get clean -y && rm -rf /var/lib/apt/lists/*
+    apt-get install -y jq && \
+    apt-get clean && \
+    rm -rf /var/lib/apt/lists/*
 
-# Copy data for App
-COPY run.sh /
-RUN chmod a+x /run.sh
+COPY run.sh /run.sh
+RUN chmod +x /run.sh
 
-CMD [ "/run.sh" ]
+CMD ["/run.sh"]
