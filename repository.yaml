@@ -1,4 +1,4 @@
 # https://developers.home-assistant.io/docs/add-ons/repository#repository-configuration
-name: dm82m Home Assistant Apps repository
-url: 'https://github.com/dm82m/hassio-addons'
-maintainer: Dirk <dirk@maucher-online.de>
+name: Khabbar Home Assistant Apps repository
+url: 'https://github.com/khabbar-a/hassio-apps'
+maintainer: khabbarab@gmail.com
