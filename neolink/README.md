@@ -7,10 +7,7 @@
 
 ![Supports amd64 Architecture][amd64-shield]
 
-> [!CAUTION]
-> This addon is still under support, but the upstream project **Neolink** (by original author [thirtythreeforty](https://github.com/thirtythreeforty) and forked by [QuantumEntangledAndy](https://github.com/QuantumEntangledAndy)) is **abandoned**.
->
-> Expect this addon to stop working at any time!
+
 
 ## About
 This Home Assistant App allows you to run Neolink directly on HAOS, providing a bridge between Reolink cameras using the proprietary Baichuan protocol and standard RTSP/MQTT clients.
